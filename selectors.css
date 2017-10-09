@@ -1,0 +1,54 @@
+header {
+    border: 6px solid goldenrod;
+}
+
+nav ul li {
+    list-style-type: none;
+    display : inline;
+    padding-right: 165px;
+}
+
+.disabled {
+    color: grey;
+}
+
+.displayed a {
+    color: purple;
+
+}
+
+.active {
+    color: yellow;
+}
+
+.promo, .promo > span{
+    color:gold; 
+    text: bold;  
+}
+
+
+
+.parent div ~ h4{
+    background-color: red;
+}
+
+.parent h4 ~ h4 {
+    background-color: blue;
+}
+
+.Gparent {
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+/* Was unsure how to approach this styling problem so I made a new class to style the granparent
+.grandparent < h4 {
+    border: 2px solid;
+    border-radius: 25px;
+
+    */
+
+  footer input {
+    height: 25px;
+
+}
